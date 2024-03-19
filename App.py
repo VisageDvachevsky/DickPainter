@@ -11,7 +11,7 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
 color = (255, 0, 0)
-distance_cm = float(input("Введите длину: ")) * 5.86206897
+distance_cm = float(input("Введите длину: ")) 
 
 prev_x = None
 prev_y = None
